@@ -1,0 +1,87 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%)
+    --Cyan: hsl(178, 100%, 50%)
+    --Very-dark-blue: hsl(217, 54%, 11%)
+    --Very-dark-blue: hsl(216, 50%, 16%)
+    --Very-dark-blue: hsl(215, 32%, 27%)
+    --White: hsl(0, 0%, 100%)
+}
+*{
+    font-family: 'Spartan', sans-serif;
+
+}
+main{
+    font-size: 18px;
+    height: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    margin-bottom: 1rem;
+
+}
+.cardBody{
+    margin: 1rem 0 1rem 0;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    width: 20rem;
+    box-shadow: white;
+}
+.cardBody h3{
+    color: white;
+}
+.cardBody h3:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.NTFpreview{
+    border-radius: 10px;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.NTFpreview:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.cardText{
+    margin: 0rem 1rem 0rem 1rem;
+}
+.cardText p{
+    font-size: 15px !important;
+    color: hsl(215, 51%, 70%);
+}
+.NFTtext h6{
+    margin: .5rem 0 0.5rem 0;
+}
+.cardFooter{
+    margin: 0.5rem 0rem 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+}
+.cardFooter p{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px !important;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+span{
+    color: white !important;
+}
+.cardFooter img{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: white;
+}
+span:hover{
+    color: cyan;
+}
+footer{
+    width: 100%;
+}
