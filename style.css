@@ -24,7 +24,7 @@ body{
 
 }
 .cardBody{
-    margin: 1rem 0 1rem 0;
+    margin: 25% 0;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     width: 20rem;
@@ -37,16 +37,19 @@ body{
     color: cyan;
     cursor: pointer;
 }
-.NTFpreview{
+/*NFT Preview*/
+.NFTpreview{
     border-radius: 10px;
     width: 18rem;
     margin-top: 1rem;
     margin-left: 1rem;
 }
-.NTFpreview:hover{
-    color: cyan;
+.NFTpreview:hover{
+    
     cursor: pointer;
 }
+/*NFT Preview*/
+/*Card Text*/
 .cardText{
     margin: 0rem 1rem 0rem 1rem;
 }
@@ -54,9 +57,52 @@ body{
     font-size: 15px !important;
     color: hsl(215, 51%, 70%);
 }
-.NFTtext h6{
-    margin: .5rem 0 0.5rem 0;
+.NFTtext{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: px;
+    justify-content: space-between;
 }
+.NFTtext h6{
+    margin: 0rem 0 0rem 0;
+}
+.clock{
+    width: 15px;
+    height: 15px;
+    /*position: absolute;*/
+}
+.ethereum{
+    width: 10px;
+    height: 15px;
+    position: absolute;
+}
+.ethereumPrice{
+    color: cyan;
+    padding-bottom: px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.ethereumPart{
+    margin-right: 20px;
+}
+.clockPart{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.clockText{
+    padding-top: 3px;
+    padding-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+/*Card Text*/
+.line{
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: hsl(215, 32%, 27%);
+}
+/*Card Footer*/
 .cardFooter{
     margin: 0.5rem 0rem 0.5rem 0;
     display: flex;
@@ -69,7 +115,11 @@ body{
     margin-top: 10px;
 }
 span{
-    color: white !important;
+    color: white;
+}
+span:hover{
+    color: cyan;
+    cursor: pointer;
 }
 .cardFooter img{
     width: 30px;
@@ -79,9 +129,7 @@ span{
     border-width: 1px;
     border-color: white;
 }
-span:hover{
-    color: cyan;
-}
 footer{
     width: 100%;
 }
+/*Card Footer*/
